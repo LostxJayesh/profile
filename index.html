@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Socials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <picture>
+        <source media="(orientation: portrait)" srcset="assets/Potrait.jpg">
+        <source media="(orientation: landscape)" srcset="assets/landscape.jpg">
+        <img id="background-image" src="assets/landscape.jpg" alt="Background">
+    </picture>
+    <div class="overlay"></div>
+    <div id="particles"></div>
+
+    <main class="container">
+        <header class="profile-header fade-in">
+            <div class="profile-pic">
+                <img src="assets/profile.jpg" alt="Profile Picture">
+            </div>
+            <h1>Connect at <span class="typewriter" data-text="@Jayesh__6z"></span><span class="cursor">|</span></h1>
+            <p>Welcome to my world. Check out my links below.</p>
+        </header>
+
+        <div class="links-container">
+            <a href="https://www.instagram.com/jayesh__6z" target="_blank" class="link-card scroll-reveal">
+                <div class="icon-box instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <span class="link-text">Instagram</span>
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <a href="https://www.snapchat.com/@jayesh_6z" target="_blank" class="link-card scroll-reveal">
+                <div class="icon-box snapchat">
+                    <i class="fa-brands fa-snapchat"></i>
+                </div>
+                <span class="link-text">Snapchat</span>
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <a href="https://x.com/jayesh__6z" target="_blank" class="link-card scroll-reveal">
+                <div class="icon-box x-twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+                <span class="link-text">X / Twitter</span>
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <a href="https://www.reddit.com/user/Jayesh__6z/" target="_blank" class="link-card scroll-reveal">
+                <div class="icon-box reddit">
+                    <i class="fa-brands fa-reddit-alien"></i>
+                </div>
+                <span class="link-text">Reddit</span>
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <a href="https://fraudoscan.netlify.app/" target="_blank" class="link-card scroll-reveal">
+                <div class="icon-box fraudoscan">
+                    <img src="https://fraudoscan.netlify.app/Logo.png" alt="FraudoScan Logo">
+                </div>
+                <span class="link-text">FraudoScan</span>
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <a href="https://github.com/lostxjayesh" target="_blank" class="link-card scroll-reveal">
+                <div class="icon-box github">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <span class="link-text">GitHub</span>
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <!-- Adding a few more to demonstrate scrolling if needed, or keeping it concise -->
+        </div>
+    </main>
+
+
+
+    <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
